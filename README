@@ -1,1 +1,8 @@
-A multi-state maze console game written in C++
+Author: Johannes Wasmer
+Date: 2011-08-16
+Description: A multi-state maze console game written in C++
+
+
+How to use:
+user$: clab Level.map
+Then Follow the instructions.
