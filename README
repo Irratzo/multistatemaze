@@ -3,6 +3,42 @@ Date: 2011-08-16
 Description: A multi-state maze console game written in C++
 
 
+
+
 How to use:
-user$: clab Level.map
-Then Follow the instructions.
+user$: executable Levelx.map
+Then follow instructions.
+
+
+
+
+
+Map legend:
+Make sure your console fonts lets you distinguish the characters O0, 'O' and 'Zero'.
+'O' is a wall.
+'0' is a wall.
+'P' is the player.
+'F' is the finish or exit.
+
+There are two types of crossings.
+Type 1, '+', behaves like this:
+
+OOO OOO     OOOPOOO
+OOO OOO     OOOOOOO
+  O+O          +   
+OOOPOOO     OOOOOOO
+OOO OOO     OOO OOO
+
+Type 2, 'R' or 'L', have a movable wall element '0' attached, and behave like this:
+
+OOO OOO     OOO OOO
+OOO OOO     OOO OOO
+   R0         PR   
+OOOPOOO     OOO0OOO
+OOO OOO     OOO OOO
+
+OOO OOO     OOO OOO
+OOO OOO     OOO0OOO
+   L0         PL   
+OOOPOOO     OOO OOO
+OOO OOO     OOO OOO
