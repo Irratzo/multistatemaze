@@ -21,7 +21,7 @@ Make sure your console fonts lets you distinguish the characters O0, 'O' and 'Ze
 'F' is the finish or exit.
 
 There are two types of crossings.
-Type 1, '+', behaves like this:
+Type 1, '+', behaves like this (player moves upward):
 
 OOO OOO     OOOPOOO
 OOO OOO     OOOOOOO
@@ -29,7 +29,7 @@ OOO OOO     OOOOOOO
 OOOPOOO     OOOOOOO
 OOO OOO     OOO OOO
 
-Type 2, 'R' or 'L', have a movable wall element '0' attached, and behave like this:
+Type 2, 'R' or 'L', have a movable wall element '0' attached, and behave like this (player moves upward):
 
 OOO OOO     OOO OOO
 OOO OOO     OOO OOO
